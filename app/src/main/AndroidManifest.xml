@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".app.PokemonApplication"
+        android:name="com.cesarnorena.pokedex.app.PokemonApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".app.presenter.splash.SplashActivity"
+            android:name="com.cesarnorena.pokedex.app.presenter.splash.SplashActivity"
             android:screenOrientation="portrait">
 
             <intent-filter>
@@ -32,7 +32,7 @@
         </activity>
 
         <activity
-            android:name=".app.presenter.home.HomeActivity"
+            android:name="com.cesarnorena.pokedex.app.presenter.home.HomeActivity"
             android:screenOrientation="portrait" />
 
     </application>
